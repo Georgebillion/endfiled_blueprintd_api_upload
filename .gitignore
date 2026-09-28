@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# 项目运行时产物
+log/
+error/
+covers/
+bili_cookies.json
+doc_cache.json
+manual_docs.txt
+_qrcode_tmp.png
+
+# 敏感文件
+.env
+secrets.json
+config.local.json
+config.local.example.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+upx/
